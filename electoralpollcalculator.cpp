@@ -120,4 +120,5 @@ int main()
     votes = -999;    // so we can detect whether countVotes sets votes
     if (countVotes("TX38RCA55D", '%', votes) == 3  &&  votes == -999)
         cout << "Passed test 4: countVotes(\"TX38RCA55D\", '%', votes)" << endl;
+    return 0;
 }
